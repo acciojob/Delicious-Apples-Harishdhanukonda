@@ -1,1 +1,76 @@
 /* your code here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+.product-details h2 {
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.photo-container {
+  text-align: center;
+}
+
+.photo-main {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.photo-album {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-album li {
+  margin: 10px;
+}
+
+.photo-album img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.cart-button {
+  text-align: center;
+  padding: 20px;
+}
+
+.cart-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
